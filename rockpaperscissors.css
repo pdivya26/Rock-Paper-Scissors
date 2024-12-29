@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 7vmin;
+    color: white;
+    line-height: 15vmin;
+}
+
+.choiceop {
+    display: flex;
+    justify-content: center;
+    gap: 8rem ;
+    border: none;
+    margin: 20px auto;
+}
+
+.chimg {
+    height: 32vmin;
+    border-radius: 50%;
+}
+
+.choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 34vmin;
+    width: 34vmin;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: grey;
+    border-radius: 50%;
+    transition: property 0.3s ease;
+}
+
+.scoreboard {
+    background-color: blanchedalmond;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 15px;
+    height: 100px;
+    width: 50%;
+}
+
+.score {
+    margin: 0 auto;
+}
+
+#users, #cmpns {
+    color: black;
+    width: 250px;
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 40px;
+} 
+
+.slabel {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.move {
+    background-color: blanchedalmond;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6.8rem;
+    margin: 20px auto 30px;
+    border-radius: 10px;
+    height: 50px;
+    width: 50%;
+}
+
+#umv, #cmv {
+    font-size: 25px;
+}
+
+#vs {
+    font-size: 25px;
+}
+
+.msgcontainer {
+    color: black;
+    background-color: bisque;
+    width: 90%;
+    display: flex;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+#msg {
+    font-size: 1.3rem;
+    margin: 20px auto;
+}
