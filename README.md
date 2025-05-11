@@ -9,7 +9,7 @@ A simple and interactive **Rock Paper Scissors** game built using **HTML, CSS, a
 - Responsive and beginner-friendly UI
 - Instant feedback on win/lose/draw
 
-## 🛠Technologies Used
+## Technologies Used
 
 - HTML5
 - CSS3
