@@ -106,3 +106,95 @@ h1 {
     font-size: 1.3rem;
     margin: 20px auto;
 }
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+
+    h1 {
+        padding: 20px 0px;
+        margin: 0px 20px;
+        font-size: 45px;
+    }
+
+    .choiceop {
+        display: flex;
+        justify-content: center;
+        gap: 1rem ;
+    }
+
+    .chimg {
+        height: 25vmin;
+        width: 25vmin;
+        border-radius: 50%;
+    }
+
+    .choice {
+        height: 27vmin;
+        width: 27vmin;
+    }
+
+    .choice:hover {
+        cursor: pointer;
+        background-color: grey;
+        border-radius: 50%;
+        transition: property 0.3s ease;
+    }
+
+    .scoreboard {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px auto 15px;
+        height: 80px;
+        width: 80%;
+    }
+
+    .score {
+        margin: 0 auto;
+        gap: 1rem;
+        margin: 0px 20px;
+    }
+
+    #users, #cmpns {
+        text-align: center;
+        margin: 8px 0px;
+        font-size: 26px;
+        width: 160px;
+    } 
+
+    .slabel {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .move {
+        gap: 1rem;
+        margin: 20px auto 30px;
+        border-radius: 10px;
+        height: 50px;
+        width: 50%;
+    }
+
+    #umv, #cmv {
+        font-size: 20px;
+    }
+
+    #vs {
+        font-size: 22px;
+    }
+
+    .msgcontainer {
+        width: 90%;
+        display: flex;
+        margin: 20px auto;
+        border-radius: 10px;
+    }
+
+    #msg {
+        font-size: 1.1rem;
+        word-wrap: break-word;
+        white-space: normal;
+        text-align: center;
+    }
+}
