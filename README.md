@@ -2,6 +2,8 @@
 
 A simple and interactive **Rock Paper Scissors** game built using **HTML, CSS, and JavaScript**. Play against the computer and see who wins!
 
+[**Check it out here!**](https://pdivya26.github.io/RockPaperScissors/)
+
 ## Features
 
 - Classic Rock-Paper-Scissors gameplay
